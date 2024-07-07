@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../vistas/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>SIGPAR</title>
 </head>
@@ -14,8 +14,8 @@
                 <center>
                 <h1><i>Inicio de Sesión</i></h1>
                 <?php
-                    include("conexion_bd.php");
-                    include("controlador.php");
+                    include("../conexion/conexion_bd.php");
+                    include("../controlador/controlador.php");
                 ?>
                 <div class="input-box">
                     <i class='bx bxs-user' style="margin-left: -35px; margin-top: 11px"></i>

@@ -10,7 +10,7 @@
 <body>
     <div class="main">
         <div class="login">
-            <form method="post" action="">
+            <form method="post" action="../controlador/controlador.php">
                 <center>
                 <h1><i>Registrarse</i></h1>
                 
@@ -38,16 +38,7 @@
                     <i class='bx bxs-lock-alt' style="margin-left: -35px; margin-top: 11px"></i>
                     <input type="text" name="contraseña" placeholder="CONTRASEÑA">
                 </div>
-
-                <div class="input-box">
-                    <label for="" style="color: white; font-size: 20px">Tipo de Usuario: </label>
-                    <select name="tipoUsuario" id="tipoUsuario" style="font-size: 18px">
-                    <option value="mesero">Mesero</option>
-                    <option value="cocinero">Cocinero</option>
-                    </select>
-                </div>
-
-                <button name="btnaceptar" type="submit" class="boton" style="margin-top: 25px; font-size: 22px">Aceptar</button>
+                <button name="btnRegistrar" type="submit" class="boton" style="margin-top: 25px; font-size: 22px">Aceptar</button>
                 <button name="btncancelar" type="submit" class="boton" style="margin-left: 12px; font-size: 22px"><a href="log-in.php" style="color: gray">Cancelar</a></button>
                 </center>
             </form>
